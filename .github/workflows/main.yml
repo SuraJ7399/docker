@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     name: bilkul nhi
     steps:
-      - name: suraj
+      - name: Hello world action step
         id: hello
         uses: actions/hello-world-docker-actio@v1
         with:
