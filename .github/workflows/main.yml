@@ -5,11 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     name: bilkul nhi
     steps:
-      - name: Hello world action step
+      - name: sunny
         id: hello
         uses: actions/hello-world-docker-action@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'sunny babu'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time will  be ${{ steps.hello.outputs.time }}"
